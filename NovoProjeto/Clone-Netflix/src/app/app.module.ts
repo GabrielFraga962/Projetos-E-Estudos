@@ -7,11 +7,13 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatBadgeModule} from '@angular/material/badge';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { SliderComponent } from './components/slider/slider.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SliderComponent
   ],
 
   imports: [
